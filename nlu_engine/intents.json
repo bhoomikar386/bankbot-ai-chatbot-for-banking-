@@ -1,0 +1,104 @@
+{
+  "intents": [
+    {
+      "name": "check_balance",
+      "examples": [
+        "What's my account balance?",
+        "Show balance for my savings account",
+        "How much money do I have in my current account?",
+        "Check balance of my savings",
+        "Can you tell me my account balance?",
+        "What's the balance in my checking account?",
+        "Show me my balance",
+        "How much is left in my savings?",
+        "I'd like to see my account balance",
+        "Please display my current balance",
+        "Balance enquiry for my account",
+        "What is my available balance right now?",
+        "Get balance for account ending 1234",
+        "What's the available balance in my account?",
+        "Check my savings balance",
+        "How much funds do I have in my account?",
+        "Tell me my account balance for today",
+        "Show current balance for my current account",
+        "What is my bank balance?",
+        "Display balance"
+      ]
+    },
+    {
+      "name": "transfer_money",
+      "examples": [
+        "Transfer 5000 from savings to checking",
+        "Move $1500 to account 12345678",
+        "Please transfer $250 to my friend",
+        "Transfer funds from my savings to current account",
+        "I want to send 1000 rupees to account 9876543210",
+        "Transfer $50 to account number 555666",
+        "Make a transfer of 2000 INR to my other account",
+        "Send money to another account",
+        "Transfer amount 7500 to my daughter's account",
+        "Please move 3000 from checking to savings",
+        "Initiate transfer of $1000 to account 11223344",
+        "Pay 4500 to account 99887766",
+        "I need to transfer money to someone",
+        "Transfer ₹1,000 from my savings to my current account",
+        "Transfer 20,000 INR to vendor account",
+        "Move funds to account ending 4321",
+        "Can you transfer $120 to my other account?",
+        "Send payment of 600 to account 33322211",
+        "Transfer 5k from my savings"
+      ]
+    },
+    {
+      "name": "card_block",
+      "examples": [
+        "I want to block my debit card",
+        "Block my credit card immediately",
+        "How can I block a lost card?",
+        "My card is lost, please block it",
+        "Temporarily disable my debit card",
+        "Report lost credit card and block it",
+        "Block card number ending 4321",
+        "How do I freeze my card?",
+        "I think my card was stolen, block it now",
+        "Please block my ATM card",
+        "Deactivate my debit card",
+        "Emergency: block my credit card",
+        "Prevent transactions on my lost card",
+        "Suspend card usage for my debit card",
+        "Block card due to fraudulent activity",
+        "Lock my card immediately",
+        "Stop transactions on my credit card",
+        "Block the card linked to account 123456",
+        "Disable my card temporarily",
+        "Request to block my card"
+      ]
+    },
+    {
+      "name": "find_atm",
+      "examples": [
+        "Where is the nearest ATM?",
+        "Find ATM in Bangalore",
+        "ATM near me",
+        "Locate nearest ATM branch",
+        "Show me nearby ATMs",
+        "Is there an ATM near Whitefield?",
+        "Nearest ATM to my location",
+        "Where can I withdraw cash nearby?",
+        "Find the closest ATM to my address",
+        "ATM within 1 km of me",
+        "Locate an ATM on MG Road",
+        "Show ATMs near me",
+        "Find ATM open now",
+        "Where is the nearest cash machine?",
+        "Nearest ATM branch for my bank",
+        "ATM location near airport",
+        "Locate ATM using my current location",
+        "Is there an ATM in this area?",
+        "ATM near me that accepts deposits",
+        "Find nearest ATM that dispenses cash",
+        "where the ATM?"
+      ]
+    }
+  ]
+}

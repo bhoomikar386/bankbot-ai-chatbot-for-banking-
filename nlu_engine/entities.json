@@ -1,0 +1,50 @@
+{
+    "patterns": [
+        {
+            "label": "ACCOUNT_TYPE",
+            "pattern": [{"LOWER": "savings"}]
+        },
+        {
+            "label": "ACCOUNT_TYPE",
+            "pattern": [{"LOWER": "current"}]
+        },
+        {
+            "label": "ACCOUNT_TYPE",
+            "pattern": [{"LOWER": "checking"}]
+        },
+        {
+            "label": "CARD_TYPE",
+            "pattern": [{"LOWER": "debit"}]
+        },
+        {
+            "label": "CARD_TYPE",
+            "pattern": [{"LOWER": "credit"}]
+        },
+        {
+            "label": "LOAN_TYPE",
+            "pattern": [{"LOWER": "home"}]
+        },
+        {
+            "label": "LOAN_TYPE",
+            "pattern": [{"LOWER": "personal"}]
+        }
+    ],
+
+    "regex_patterns": [
+        {
+            "label": "AMOUNT",
+            "pattern": "\\b(?:\\$|₹|rs\\.?\\s*)?\\d{1,3}(?:[\\,\\d]{0,3})*(?:\\.\\d{1,2})?\\b",
+            "flags": "i"
+        },
+        {
+            "label": "ACCOUNT_NUMBER",
+            "pattern": "\\b\\d{6,16}\\b",
+            "flags": ""
+        },
+        {
+            "label": "CARD_NUMBER",
+            "pattern": "\\b[A-Z0-9]{6,12}\\b",
+            "flags": ""
+        }
+    ]
+}
